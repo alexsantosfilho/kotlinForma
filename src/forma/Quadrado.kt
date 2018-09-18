@@ -6,6 +6,6 @@ class Quadrado(lado: Double) : Forma() {
 
     override val area = this.lado * this.lado
 
-    override val perimetro: Double = 4 * this.lado
+    override val perimetro = 4 * this.lado
 
     }
