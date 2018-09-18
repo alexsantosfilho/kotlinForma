@@ -9,10 +9,8 @@ class Trapezio(baseMaior: Double, baseMenor: Double, altura: Double, ladoEsquerd
     private val ladoDireito = ladoDireito
     private val ladoEsquerdo = ladoEsquerdo
 
-    override val area: Double
-        get() = (this.baseMenor + this.baseMaior) * this.altura / 2
+    override val area: Double = (this.baseMenor + this.baseMaior) * this.altura / 2
 
-    override val perimetro: Double
-        get() = this.baseMenor + this.baseMaior + this.lados[0] + this.lados[1]
+    override val perimetro: Double = this.baseMenor + this.baseMaior + this.lados[0] + this.lados[1]
 
 }
